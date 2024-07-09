@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            height: 100vh;
+            width: 100vw;
+
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        .ball {
+            height: 70px;
+            width: 70px;
+            background: linear-gradient(rgb(16, 27, 16),rgb(4, 255, 0));
+            
+            border-radius: 100%;
+            position: relative;
+            margin: 8px;
+            animation-name: ballmove;
+            animation-duration: 1.5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            animation-direction: alternate;
+            left: 50%;
+            transform: all  linear;
+            display:flex;
+            /* animation: animation name timing function iteration count direction fill mode */
+            transition: ease-in-out;
+
+
+
+        }
+        @keyframes ballmove {
+            from{
+                transform: translateY(0px);
+            }
+            to{
+                transform: translateY(85vh)
+                rotate(360deg);
+
+            }
+
+          
+            
+        }
+        #RotateX:hover{
+        transform: rotateX(360deg);
+        transition-delay: 3s;
+    }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="ball"></div>
+    </div>
+
+</body>
+
+</html>

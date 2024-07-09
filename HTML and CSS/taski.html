@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 90vh;
+            border: 2px solid black;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .item
+        {
+            height: 200px;
+            width: 200px;
+            background-color: rgb(65, 49, 136);
+            flex-direction: row;
+            margin: 10px;
+            padding: 10px;
+            border: 2px solid black;
+        }
+        .item1{
+            background-color: rgb(60, 15, 36);
+            border: 2px solid black;
+            border-style: double;
+        }
+        .p{
+            background-color: rgb(128, 210, 221);
+            height: 40px;
+            width: 190px;
+            align-content: center;
+            border: dotted;
+            margin: 5px;
+            
+
+        }
+        .p1{
+            background-color: rgb(212, 125, 62);
+            height: 40px;
+            width: 190px;
+            margin: 5px;
+            border: dotted;
+            align-content: center;
+        }
+        .img{
+            border: 2px solid black;
+        }
+        @media screen and (max-width:519px)
+        {
+            .container{
+                background-color: blanchedalmond;
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">
+            <div class="p"><p>ooye hoye</p></div> 
+            <div class="p1"> nisha pagal</div>
+        </div>
+            
+        <div class="item item1">  <img src="raksha.jpg" alt="" height="200px" width="200px"></div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            background-color: bisque;
+            padding: 5rem;
+            display: flex;
+            
+        }
+        /* #RotateX{
+            height: 200px;
+            width: 200px;
+            background-color: aqua;
+            border: 2px solid black ;
+        } */
+        .items
+        {
+            height: 200px;
+            width: 200px;
+            font-size: 20px;
+            background: linear-gradient(rgb(186, 230, 91) 10%, 30%, rgb(74, 75, 152) 90%);
+            
+            background-color: rgb(34, 209, 151);
+            border: 2px solid black;
+            margin: 10px;
+            transform: all 2sec linear ;
+
+
+
+           
+
+
+           
+
+        }
+        /* #RotateY{
+            height: 200px;
+            width: 200px;
+            background-color: rgb(150, 117, 203);
+            border: 2px solid black ;
+
+        }
+        #RotateZ{
+            height: 200px;
+            width: 200px;
+            background-color: rgb(64, 137, 75);
+            border: 2px solid black ;
+        }
+        #TranslateX{
+            height: 200px;
+            width: 200px;
+            background-color: rgb(150, 117, 203);
+            border: 2px solid black ;
+        }
+        #TranslateY{
+            height: 200px;
+            width: 200px;
+            background-color: rgb(172, 71, 154);
+            border: 2px solid black ;
+        }*/
+       
+        
+       #RotateX:hover{
+        transform: rotateX(90deg);
+       }
+       #RotateY:hover{
+        transform: rotateY(360deg);
+
+       }
+       #RotateZ:hover{
+        transform: rotateZ(360deg);
+
+       }
+       #TranslateX:hover{
+        transform: translateX(100px);
+       }
+       #TranslateY:hover{
+        transform: translateY(150px);
+       }
+       #TranslateZ:hover{
+        transform: perspective(300px) translateZ(-150px);
+       }
+       #ScaleX:hover{
+        transform: scaleX(2);
+       }
+       #ScaleY:hover{
+        transform: scaleY(2);
+       }
+       #ScaleZ:hover{
+        transform: perspective(300px) scaleZ(2) rotateY(45deg);
+       }
+
+
+
+        
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+    <div class="items" id="RotateX">RotateX</div>
+    <div class="items" id="RotateY">RotateY</div>
+    <div class="items" id="RotateZ">RotateZ</div>
+    <div class="items" id="TranslateX">TranslateX </div>
+    <div class="items" id="TranslateY">TranslateY</div>
+    <div class="items" id="TranslateZ">TranslateZ</div>
+    <div class="items" id="ScaleX">ScaleX</div>
+    <div class="items" id="ScaleY">ScaleY</div>
+    <div class="items" id="ScaleZ">ScaleZ</div>
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .box{
+            width: 200px;
+            height: 200px;
+            border: 2px solid black ;
+            background-color: aqua;
+
+        }
+        .box:hover{
+            background-color: brown;
+            width: 250px;
+            height: 250px;
+            
+
+        }
+        input{
+            background-color: aqua;
+            
+        }
+        input:hover{
+            background-color: blueviolet;
+
+        }
+        input:focus{
+            background-color: crimson;
+        } */
+        /* li:first-child{
+            background-color: red;
+
+        } */
+        li:nth-of-type(3n+1){  /* you can also add condition like even and odd  */
+
+            background-color: chartreuse;
+
+        }
+        p::first-letter{
+            font-size: 50px;
+            color: red;
+            text-shadow: 5cm;
+            
+
+            
+        }
+        p::first-line{
+            text-decoration: underline;
+        }
+        p::before{
+            content:'\2665';
+
+        }
+        p::after{
+            content: '\01FC';
+            content: '\03D5';
+        }
+
+    </style>
+</head>
+<body>
+    <!-- <input type="text"> <br> -->
+    <!-- <div class="box"></div> -->
+    <!-- <ul>
+        <li>tamatar</li>
+        <li>aloo</li>
+        <li>baigan</li>
+        <li> kheera</li>
+        <li>bhindi</li>
+        <li>gobhi</li>
+    </ul> -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, aut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit praesentium nobis voluptates error cum ex explicabo nisi pariatur aspernatur unde.</p>
+</body>
+</html>
